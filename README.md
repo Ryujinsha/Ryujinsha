@@ -1,6 +1,4 @@
-<table>
-<tr>
-<td width="42%" valign="top"><pre>
+<pre>
 ##########+             -#################-.                                  .-++########+.                 #########
 ##########+       .-#.##############################-          .##############################-#+.           #########
 ##########+     .##.#######+--...----################          ###################+-----########-##          #########
@@ -32,8 +30,7 @@
 ###########                        +##                                               ##                     +#########
 ###########                         ..                                              .#-                     ##########
 ###########                                                                         .#.                     ##########
-</pre></td>
-<td width="58%" valign="top">
+</pre>
 
 ```
 Github@Ryujinsha
@@ -47,7 +44,6 @@ Github@Ryujinsha
   Languages.Computer:    .. HTML, CSS, JSON, YAML
   Languages.Real:        .. English, Indonesian
 
-  
   Hobbies: .... Anime, Gaming, Designing, Coding, PC Building
 
 - Contact ───────────────────────────────────────────────────────
@@ -59,10 +55,6 @@ Github@Ryujinsha
   Followers: .......... 4  | Following: ................. 5
   Contributions (Last Year): .................... 100
 ```
-
-</td>
-</tr>
-</table>
 
 ---
 
