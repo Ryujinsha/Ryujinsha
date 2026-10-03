@@ -1,16 +1,21 @@
 """
-Calculates uptime from a fixed birthdate and injects it into README.md.
-The README must contain the markers:
-  <!-- UPTIME_START --> ... <!-- UPTIME_END -->
+Calculates uptime from a fixed birthdate and patches the Uptime line in README.md.
+Matches the line:   Uptime:     ........ X years, X months, X days
+No HTML markers needed in the README.
 """
 
 import re
+import calendar
 from datetime import date
 
-BIRTHDATE = date(2006, 1, 3) 
-
+BIRTHDATE = date(2006, 1, 3)
 
 README_PATH = "README.md"
+
+# Matches the uptime line inside the code block, capturing the prefix
+UPTIME_PATTERN = re.compile(
+    r"(  Uptime:\s+\.+\s+)\d+ years, \d+ months, \d+ days"
+)
 
 
 def calc_uptime(birth: date, today: date) -> str:
@@ -20,9 +25,9 @@ def calc_uptime(birth: date, today: date) -> str:
 
     if days < 0:
         months -= 1
-        prev_month = today.replace(day=1)
-        import calendar
-        days_in_prev = calendar.monthrange(prev_month.year, prev_month.month - 1 or 12)[1]
+        days_in_prev = calendar.monthrange(
+            today.year, today.month - 1 if today.month > 1 else 12
+        )[1]
         days += days_in_prev
 
     if months < 0:
@@ -39,12 +44,7 @@ def main():
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
-    updated = re.sub(
-        r"(<!-- UPTIME_START -->).*?(<!-- UPTIME_END -->)",
-        rf"\g<1>{uptime_str}\g<2>",
-        content,
-        flags=re.DOTALL,
-    )
+    updated = UPTIME_PATTERN.sub(rf"\g<1>{uptime_str}", content)
 
     if updated == content:
         print("No change needed.")

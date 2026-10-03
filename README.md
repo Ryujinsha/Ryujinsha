@@ -10,16 +10,16 @@
 Github@Ryujinsha
 ────────────────────────────────────────────────────────────────
   OS:         ........ Windows 11, iOS, Linux
-  Uptime:     ........ <!-- UPTIME_START -->20 years, 10 months, 3 days<!-- UPTIME_END -->
+  Uptime:     ........ 20 years, 9 months, 0 days
   Host:       ........ Self-hosted
-  IDE:        ........ IDEA 2023.3.2, VSCode 1.96.0
+  IDE:        ........ Antigravity IDE, VSCode 1.96.0
 
   Languages.Programming: .. Java, Python, JavaScript, PHP, C++
   Languages.Computer:    .. HTML, CSS, JSON, LaTeX, YAML
   Languages.Real:        .. English, Indonesian
 
-  Hobbies.Software: .... Minecraft Modding, iOS Jailbreaking
-  Hobbies.Hardware: .... Overclocking, Undervolting
+  
+  Hobbies: .... Anime, Gaming, Designing, Coding, PC Building
 
 - Contact ───────────────────────────────────────────────────────
   GitHub:    .............................. Ryujinsha
@@ -43,10 +43,10 @@ Github@Ryujinsha
   <img src="https://skillicons.dev/icons?i=java,python,js,php,ts,cpp&theme=dark&perline=6" alt="Languages" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,laravel,nodejs&theme=dark&perline=6" alt="Frameworks" />
+  <img src="https://skillicons.dev/icons?i=html,css,react,laravel,nodejs&theme=dark&perline=6" alt="Frameworks" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,git,github,vscode,idea,linux&theme=dark&perline=6" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=mysql,git,github,vscode,,linux&theme=dark&perline=6" alt="Tools" />
 </p>
 
 ---
