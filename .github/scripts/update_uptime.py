@@ -12,7 +12,6 @@ BIRTHDATE = date(2006, 1, 3)
 
 README_PATH = "README.md"
 
-# Matches the uptime line inside the code block, capturing the prefix
 UPTIME_PATTERN = re.compile(
     r"(  Uptime:\s+\.+\s+)\d+ years, \d+ months, \d+ days"
 )
