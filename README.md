@@ -1,34 +1,4 @@
-<pre>
-                                                            Github@Ryujinsha
-                                                            ────────────────────────────────────────────────────────────────
-         ..--.......                            .....              OS:         ........ Windows 11, iOS, Linux
-     --+##################+.       .+##################.#.         Uptime:     ........ 20 years, 9 months, 0 days
-  .#-#####-......-#########+       ############-....+####+#-           Host:       ........ Self-hosted
-  ..##-.    .##########+              .-++++++---.     .+##.       IDE:        ........ Antigravity IDE, VSCode 1.96.0
-          -##########+-.-#          .#..+#########+-                  
-        +##.+#######-#+. #+         #+ ++#.#######.+##.            Languages.Programming: .. Java, Python, JavaScript, PHP, C++
-      #++-.+#######.--. #.         #-  -  #######  -+#-            Languages.Computer:    .. HTML, CSS, JSON, YAML
-         -##########++.               +############-               Languages.Real:        .. English, Indonesian
-                                                                      
-                                                            Hobbies: .... Anime, Gaming, Designing, Coding, PC Building
-                                                                      
-                                                            - Contact ───────────────────────────────────────────────────────
-                                                      +#           GitHub:    .............................. Ryujinsha
-                                                     ##            Discord:   .............................. ryujinsha
-                                                   .#+                
-                                              -   .#+    - GitHub Stats ──────────────────────────────────────────────────
-                                           .-##   #+            Repos: .............. 13 | Stars: ..................... 4
-                                        .###.    -#              Followers: .......... 4  | Following: ................. 5
-              .#....      ....--+#######-.       #.        Contributions (Last Year): .................... 100
-               ##-------+++------...            .#                    
-               ..                               +#                    
-                   ................             ..                    
-</pre>
-
----
-
-### 🛠 Tech Stack
-
+<img src="profile.svg" alt="Github@Ryujinsha profile" />
 <p align="center">
   <img src="https://go-skill-icons.vercel.app/api/icons?i=java,python,js,php,ts,cpp&theme=dark&perline=6&animate=true" alt="Languages" />
 </p>
